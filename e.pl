@@ -6,8 +6,6 @@ sub total
 {
 my $cnt=0;
 
-$anz=@_;
-print "Anzahl: $anz \n";
 foreach (@_)
   {
     $cnt += $_
