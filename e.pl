@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 #use strict;
+
+## copyright otd
 my $i;
 
 sub total 
@@ -23,3 +25,4 @@ my $user_total = &total(<STDIN>);
 print "The total of those numbers is $user_total.\n";
 
 # ende
+
